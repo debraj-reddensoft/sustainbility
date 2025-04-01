@@ -58,7 +58,7 @@ export default function Aside() {
                 <Link href="#" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Biodiversity</Link>
               </li>
               <li>
-                <Link href="#" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Procurement</Link>
+                <Link href="/company-lnformation" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Procurement</Link>
               </li>
             </ul>
           </li>
@@ -87,7 +87,7 @@ export default function Aside() {
             </ul>
           </li>
           <li>
-            <Link href="/" className="flex items-center px-3 py-2 bg-white text-zinc-700 text-sm font-medium rounded-lg">
+            <Link href="/goal-manager" className="flex items-center px-3 py-2 bg-white text-zinc-700 text-sm font-medium rounded-lg">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-1">
                 <path d="M16.6067 10.6227C16.6067 6.72683 13.4484 3.56934 9.55336 3.56934C5.65751 3.56934 2.49921 6.72683 2.49921 10.6227C2.49921 14.5185 5.65751 17.676 9.55336 17.676C13.4484 17.676 16.6067 14.5185 16.6067 10.6227Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M13.3741 10.6226C13.3741 8.51175 11.6631 6.80176 9.55398 6.80176C7.44402 6.80176 5.73322 8.51175 5.73322 10.6226C5.73322 12.7317 7.44402 14.4426 9.55398 14.4426C11.6631 14.4426 13.3741 12.7317 13.3741 10.6226Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

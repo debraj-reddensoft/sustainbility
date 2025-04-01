@@ -54,11 +54,12 @@ export default function PerformanceOverTime() {
 
   return (
     <div className="border border-neutral-200 rounded-md p-3">
+
       <div className="flex items-center border-b border-neutral-200 pb-4">
         <p className="flex items-center text-base font-medium text-black pr-2">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
-          <path d="M11.1 7.5H12.9V16.5H11.1V7.5ZM14.7 11.1H16.5V16.5H14.7V11.1ZM7.5 12.9H9.3V16.5H7.5V12.9ZM14.7 4.8H5.7V19.2H18.3V8.4H14.7V4.8ZM3.9 3.8928C3.9 3.3996 4.3023 3 4.7991 3H15.6L20.1 7.5V20.0937C20.1008 20.2119 20.0784 20.3291 20.0339 20.4386C19.9894 20.5481 19.9238 20.6478 19.8409 20.7319C19.7579 20.8161 19.6591 20.8831 19.5502 20.9291C19.4414 20.9751 19.3245 20.9992 19.2063 21H4.7937C4.55734 20.9984 4.33112 20.9038 4.1639 20.7367C3.99668 20.5697 3.90189 20.3436 3.9 20.1072V3.8928Z" fill="currentColor"/>
-        </svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
+            <path d="M11.1 7.5H12.9V16.5H11.1V7.5ZM14.7 11.1H16.5V16.5H14.7V11.1ZM7.5 12.9H9.3V16.5H7.5V12.9ZM14.7 4.8H5.7V19.2H18.3V8.4H14.7V4.8ZM3.9 3.8928C3.9 3.3996 4.3023 3 4.7991 3H15.6L20.1 7.5V20.0937C20.1008 20.2119 20.0784 20.3291 20.0339 20.4386C19.9894 20.5481 19.9238 20.6478 19.8409 20.7319C19.7579 20.8161 19.6591 20.8831 19.5502 20.9291C19.4414 20.9751 19.3245 20.9992 19.2063 21H4.7937C4.55734 20.9984 4.33112 20.9038 4.1639 20.7367C3.99668 20.5697 3.90189 20.3436 3.9 20.1072V3.8928Z" fill="currentColor"/>
+          </svg>
           Performance Over Time
         </p>
         <div className="border border-neutral-200 rounded-lg ml-auto">
@@ -80,3 +81,4 @@ export default function PerformanceOverTime() {
     </div>
   );
 }
+
