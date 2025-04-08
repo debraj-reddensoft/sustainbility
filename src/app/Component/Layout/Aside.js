@@ -49,13 +49,13 @@ export default function Aside() {
                 <Link href="/environment" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">GHG Emmissions</Link>
               </li>
               <li>
-                <Link href="#" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Energy</Link>
+                <Link href="/energy" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Energy</Link>
               </li>
               <li>
                 <Link href="#" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Waste</Link>
               </li>
               <li>
-                <Link href="#" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Biodiversity</Link>
+                <Link href="/biodiversity" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Biodiversity</Link>
               </li>
               <li>
                 <Link href="/company-lnformation" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Procurement</Link>
@@ -76,7 +76,7 @@ export default function Aside() {
             </button>
             <ul className={`${openMenu === "community" ? "block" : "hidden"} border-l border-neutral-200 pl-3 space-y-2 py-1 ml-6`}>
               <li>
-                <Link href="#" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Employees</Link>
+                <Link href="/employees" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Employees</Link>
               </li>
               <li>
                 <Link href="#" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Local Engagement & Cultural Heritage</Link>
