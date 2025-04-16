@@ -22,7 +22,7 @@ export default function PerformanceOverTime() {
         data: [35, 35, 45, 40, 22, 30, 30, 50, 30, 25, 28, 35],
         backgroundColor: "#27A376",
         borderColor: "#27A376",
-        tension: 0.3,
+        tension: 0,
         fill: false
       },
       {
@@ -30,7 +30,7 @@ export default function PerformanceOverTime() {
         data: [30, 40, 60, 50, 35, 45, 25, 70, 40, 30, 35, 30],
         backgroundColor: "#FB8B4C",
         borderColor: "#FB8B4C",
-        tension: 0.3,
+        tension: 0,
         fill: false
       },
       {
@@ -38,7 +38,7 @@ export default function PerformanceOverTime() {
         data: [40, 25, 35, 30, 20, 25, 15, 55, 28, 20, 22, 45],
         backgroundColor: "#FC8DB7",
         borderColor: "#FC8DB7",
-        tension: 0.3,
+        tension: 0,
         fill: false
       }
     ]

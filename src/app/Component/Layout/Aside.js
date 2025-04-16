@@ -79,10 +79,10 @@ export default function Aside() {
                 <Link href="/employees" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Employees</Link>
               </li>
               <li>
-                <Link href="#" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Local Engagement & Cultural Heritage</Link>
+                <Link href="/local-engagement-cultural-heritage" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Local Engagement & Cultural Heritage</Link>
               </li>
               <li>
-                <Link href="#" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Visitors</Link>
+                <Link href="/visitors" className="text-sm font-normal text-zinc-600 relative block hover:text-zinc-800 hover:before:block hover:before:w-1 hover:before:bg-zinc-300 hover:before:h-full hover:before:absolute hover:before:top-0 hover:before:-left-[14.5px] hover:before:rounded-full">Visitors</Link>
               </li>
             </ul>
           </li>

@@ -189,7 +189,6 @@ function CompanyInformation() {
         </div>
       </div>
 
-
     </Layout>
   )
 }

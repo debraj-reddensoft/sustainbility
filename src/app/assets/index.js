@@ -19,9 +19,13 @@ import avatarThree from '../assets/images/avatar-3.jpg'
 import avatarFour from '../assets/images/Avatar-4.jpg'
 import avatarFive from '../assets/images/Avatar-5.jpg'
 import avatarSix from '../assets/images/Avatar-6.jpg'
+import lightGreenCheck from '../assets/images/light-green-check.svg'
+import localGroupIc from '../assets/images/local-group.svg'
+import Trainings from '../assets/images/trainings-1.jpg'
+import Suppliers from '../assets/images/suppliers.jpg'
 
 export{
     logoMain,profileDem,personOne,rezdy1,edit2,reload,eyeLine,delete2,checkDual,lighthouse,
     iconGoogle,iconFacebook,iconEroSoftware,iconSlack,iconZoom,avatarOne,avatarTwo,avatarThree,
-    avatarFour,avatarFive,avatarSix
+    avatarFour,avatarFive,avatarSix,lightGreenCheck,localGroupIc,Trainings,Suppliers
 }

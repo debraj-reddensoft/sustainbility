@@ -20,7 +20,9 @@ export default function Home() {
   
   return (
     <Layout>
+
       <div>
+
         <div className="flex pb-7">
           {tabs.map((tab) => (
             <button key={tab} onClick={() => setActiveTab(tab)} className={`px-4 py-2 text-xs font-medium rounded-full bg-white ${activeTab === tab ? "shadow-lg shadow-neutral-300 text-black" : "text-zinc-500"}`}>
@@ -124,11 +126,13 @@ export default function Home() {
             <p>Welcome to All Branches</p>
           }
 
-          {activeTabsTwo === "Greymouth New Zealand" && <p> Welcome to All Branches</p>}
-          {activeTabsTwo === "Dazhboards Greymouth"  && <p> Welcome to All Branches</p>}
+          {activeTabsTwo === "Greymouth New Zealand" && <p> Welcome to All Branches</p> }
+          {activeTabsTwo === "Dazhboards Greymouth " && <p> Welcome to All Branches</p> }
 
         </div>
+
       </div>
+
     </Layout>
   );
 }
